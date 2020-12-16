@@ -101,7 +101,7 @@ const createIndex = async function ({ server, config, index, mappings, alarmInde
           settings: { 
             index: {
               lifecycle: {
-                name: config.es.rollover_index_name,
+                name: config.es.rollover_policy_name,
                 rollover_alias: alias
               }
             }

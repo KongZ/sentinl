@@ -103,7 +103,7 @@ sentinl:
     # alarm_index: 'watcher_alarms'
     # alarm_type: 'sentinl-alarm'
     # rollover_index: true # Use ES rollover index
-    # rollover_index_name: 'watcher-alarms'
+    # rollover_policy_name: 'watcher-alarms'
   settings:
     email:
       active: true
